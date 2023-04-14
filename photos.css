@@ -1,0 +1,261 @@
+/* JavaScript - Assignment 4
+
+   Photo gallery
+   Author: Julio Vinicius A. de Carvalho
+   Date: April 1st, 2023
+   
+   Large format style sheet
+
+   Filename: photos.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* reset rules */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  width: 650px;
+  margin: 0 auto;
+  font-family: verdana, arial, helvetica, sans-serif;
+  background: rgb(56, 55, 55);
+}
+
+/* page header */
+header {
+  color: white;
+  font-size: 3.7em;
+}
+
+header h1 {
+  text-align: center;
+  padding: 0.5em;
+}
+
+/* main content */
+article {
+  background: white;
+  position: relative;
+}
+
+#leftarrow,
+#rightarrow {
+  background: #696565;
+  color: white;
+  position: absolute;
+  z-index: 30;
+  text-align: center;
+  height: 135px;
+  width: 40px;
+  top: 67px;
+}
+
+article div:hover {
+  cursor: default;
+}
+
+#leftarrow {
+  left: 0;
+}
+
+#rightarrow {
+  right: 0;
+}
+
+article p {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+#leftarrow p,
+#rightarrow p {
+  position: relative;
+  top: 50%;
+  margin-top: -0.5em;
+}
+
+figure {
+  position: absolute;
+  -webkit-box-shadow: 10px 0px 5px rgb(50, 50, 50),
+    -10px 0px 5px rgb(50, 50, 50);
+  -moz-box-shadow: 10px 0px 5px rgb(50, 50, 50), -10px 0px 5px rgb(50, 50, 50);
+  box-shadow: 10px 0px 5px rgb(50, 50, 50), -10px 0px 5px rgb(50, 50, 50);
+}
+
+#fig3 {
+  z-index: 20;
+  left: 50%;
+  margin-left: -240px;
+  top: 0;
+}
+
+#reloadButton {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 360px;
+  color: white;
+  text-align: center;
+}
+
+#reloadButton p {
+  width: 20%;
+  margin: 0 auto;
+  line-height: 2em;
+  background: #696565;
+}
+
+#startStop {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 320px;
+  color: white;
+  text-align: center;
+}
+
+#startStop p {
+  width: 20%;
+  margin: 0 auto;
+  line-height: 2em;
+  background: #696565;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 20px;
+  clear: both;
+  background: black;
+  color: rgb(227, 198, 32);
+  text-align: center;
+}
+
+#lastUpdate {
+  margin-top: 80%;
+  color: white;
+}
+
+#title-box {
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 290px;
+}
+
+#title {
+  color: bisque;
+  text-align: center;
+}

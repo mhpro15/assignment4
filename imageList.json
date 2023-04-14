@@ -1,0 +1,56 @@
+{
+  "ImageList": [
+    {
+      "name": "images/photo01.jpg",
+      "time": 3000
+    },
+    {
+      "name": "images/photo02.jpg",
+      "time": 4000
+    },
+    {
+      "name": "images/photo03.jpg",
+      "time": 3000
+    },
+    {
+      "name": "images/photo04.jpg",
+      "time": 5000
+    },
+    {
+      "name": "images/photo05.jpg",
+      "time": 4000
+    },
+    {
+      "name": "images/photo06.jpg",
+      "time": 3000
+    },
+    {
+      "name": "images/photo07.jpg",
+      "time": 4000
+    },
+    {
+      "name": "images/photo08.jpg",
+      "time": 3000
+    },
+    {
+      "name": "images/photo09.jpg",
+      "time": 5000
+    },
+    {
+      "name": "images/photo10.jpg",
+      "time": 4000
+    },
+    {
+      "name": "images/photo11.jpg",
+      "time": 3000
+    },
+    {
+      "name": "images/photo12.jpg",
+      "time": 4000
+    },
+    {
+      "name": "images/photo13.jpg",
+      "time": 4000
+    }
+  ]
+}
